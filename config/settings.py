@@ -132,7 +132,7 @@ DATETIME_FORMAT = 'j F Y, H:i'
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/xorazmn1/xorazmnews.uz.uz/django/staticfiles'
+STATIC_ROOT = '/home/xorazmn1/xorazmnews.uz/django/staticfiles'
 STATICFILES_DIRS = ('/home/xorazmn1/xorazmnews.uz/django/static', )
 
 
