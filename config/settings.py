@@ -23,7 +23,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ["xorazmnews.uz", 'www.xorazmnews.uz', '127.0.0.1']
+ALLOWED_HOSTS = ["euniversitet.uz", 'www.euniversitet.uz', '127.0.0.1']
 
 # Application definition
 
@@ -132,8 +132,8 @@ DATETIME_FORMAT = 'j F Y, H:i'
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/xorazmn1/xorazmnews.uz/django/staticfiles'
-STATICFILES_DIRS = ('/home/xorazmn1/xorazmnews.uz/django/static', )
+STATIC_ROOT = '/home/eunivers/euniversitet.uz/django/staticfiles'
+STATICFILES_DIRS = ('/home/eunivers/euniversitet.uz/django/static', )
 
 
 # local
@@ -142,7 +142,7 @@ STATICFILES_DIRS = ('/home/xorazmn1/xorazmnews.uz/django/static', )
 
 
 MEDIA_URL = 'media/'
-MEDIA_ROOT = '/home/xorazmn1/xorazmnews.uz/django/media/'
+MEDIA_ROOT = '/home/eunivers/euniversitet.uz/django/media/'
 
 #local
 # MEDIA_ROOT = BASE_DIR / 'media/'
